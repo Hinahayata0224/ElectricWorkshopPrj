@@ -1,6 +1,6 @@
 # 任务书人话版
 ## 环境：
-Python,numpy,pandapower,scipy,mtplotlib,seaborn,pandas
+Python,numpy,pandapower,scipy,mtplotlib,seaborn,pandas,numba
 ## 目标：
 在树干式配电网进行仿真，分析分布式电源接入对于运行特性的影响。进而针对IEEE标准参考系统，调用Pandapower进行潮流计算，
 并在此基础上，采用粒子群（改进粒子群）优化算法进行分布式电源选址定容规划。
